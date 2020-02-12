@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>ToDo List Application PHP and PostgreSQL</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="heading">
+		<h2 style="font-style: 'Hervetica';">ToDo List Application PHP and MySQL database</h2>
+	</div>
+	<form method="post" action="index.php" class="input_form">
+		<div class="row todo_form">
+			<div class="column">
+				<label class="p_text">Выберите дату: </label><input type="date" name="date" class="calendar">
+			</div>
+			<div class="column">
+				<label class="p_text">Текст задачи: </label><textarea name="description" class="task_input"></textarea>
+			</div>
+		</div>
+		<button type="submit" name="submit" id="add_btn" class="add_btn">Add Task</button>
+	</form>
+</body>
+</html>
